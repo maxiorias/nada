@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=hh, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/ced6c10539.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="../assets/clusterlogo.png" alt="logo">
+                <ul class="menu">
+                    <li><a href="../index.html">inicio</a></li>
+                    <li><a href="../pages/nosotros.html">sobre nosotros</a></li>
+                    <li><a href="../pages/productos.html">productos</a></li>
+                    <li><a href="../pages/galeria.html">galeria</a></li>
+                    <li><a href="../pages/contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main class="mainForm">
+        <form class="mainForm__form" action="" method="post">
+            <fieldset>
+                <legend class="estiloTexto">Nuestro Formulario</legend>
+                <div class="claseForm">
+
+                    <label class="estiloTexto" for="nombre">ingrese nombre:</label>
+                    <input type="text" id="nombre" placeholder="nombre">
+
+                </div>
+                <div class="claseForm">
+                    <label class="estiloTexto" for="EMAIL">ingrese email:</label>
+                    <input type="email" id="EMAIL" placeholder="email">
+                </div>
+                <div class="claseForm">
+                    <label class="estiloTexto" for="PASS">ingrese contraseña:</label>
+                    <input type="password" id="PASS" placeholder="contraseña">
+
+                </div>
+                <fieldset>
+                    <legend class="estiloTexto">Genero</legend>
+                    <div class="claseForm">
+
+                        <label for="Masculino">Masculino</label>
+                        <input type="radio" id="Masculino" name="Genero">
+                        <label for="Femenino">Femenino</label>
+                        <input type="radio" id="Femenino" name="Genero">
+                    </div>
+
+                </fieldset>
+
+            </fieldset>
+            <div>
+                <br>
+                <input type="submit" id="ENVIAR" name="enviar formulario">
+            </div>
+        </form>
+
+    </main>
+    <footer>Copyright © 2022 TruebyPass</footer>
+</body>
+
+</html>
