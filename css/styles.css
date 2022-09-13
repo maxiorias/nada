@@ -116,14 +116,14 @@ main {
     line-height: 60px;
     text-align: center;
     background: #314652;
-    color: #f1f1f1;
+    color: #a86ad2;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(74, 0, 245, 0.5);
+    transition: all .8s ease-in-out;
 }
 
 .buttons a:hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 /* main galeria */
